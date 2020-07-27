@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40722fadf6df55b7b04c9368be85f1df",
+    "revision": "04992a2581f68588e17e4d5481429082",
     "url": "/pmoore-site/index.html"
   },
   {
-    "revision": "31c7e77b6215342d6edf",
-    "url": "/pmoore-site/static/css/main.86b3fa00.chunk.css"
+    "revision": "42306a6afa7d316595eb",
+    "url": "/pmoore-site/static/css/main.47566e9d.chunk.css"
   },
   {
-    "revision": "17410cc44b2412b25b17",
-    "url": "/pmoore-site/static/js/2.7441c998.chunk.js"
+    "revision": "11d0dd5840dfe1be0d66",
+    "url": "/pmoore-site/static/js/2.7a95c5a0.chunk.js"
   },
   {
-    "revision": "85b12af60ddf57ea6860c3b16407fd52",
-    "url": "/pmoore-site/static/js/2.7441c998.chunk.js.LICENSE"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/pmoore-site/static/js/2.7a95c5a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31c7e77b6215342d6edf",
-    "url": "/pmoore-site/static/js/main.d9e867cd.chunk.js"
+    "revision": "42306a6afa7d316595eb",
+    "url": "/pmoore-site/static/js/main.6c327643.chunk.js"
   },
   {
-    "revision": "d4756b11f50b4d0256d7",
-    "url": "/pmoore-site/static/js/runtime-main.1173d845.js"
+    "revision": "3486215eacca67aef4ec",
+    "url": "/pmoore-site/static/js/runtime-main.36431a4b.js"
   },
   {
     "revision": "4d0c761fe97885e97e379b41c506c689",
@@ -68,12 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pmoore-site/static/media/php.426d404b.png"
   },
   {
-    "revision": "57b5474b965dbcb47f1aacd3d174ae18",
-    "url": "/pmoore-site/static/media/pm_resume_2020-1.57b5474b.jpg"
-  },
-  {
-    "revision": "38469b69662285fde86a3bcb77169f96",
-    "url": "/pmoore-site/static/media/pm_resume_2020-2.38469b69.jpg"
+    "revision": "d4c5a42f253fa9739c5a7a7d5ba3aeab",
+    "url": "/pmoore-site/static/media/pm_resume_2020.d4c5a42f.pdf"
   },
   {
     "revision": "e8869205668e7c735fa82c89f27e908a",
