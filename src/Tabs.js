@@ -14,6 +14,8 @@ import cs from './images/cs.png';
 import git from './images/git.png';
 import rymer1 from './images/rymer1.png';
 import rymer2 from './images/rymer2.png';
+import hh1 from './images/hygienehub.png';
+import hh2 from './images/hygienehub-mobile.png';
 import pmoore from './images/pmoore.png';
 import linkedin from './images/linkedin.png';
 import pdf from 'pdfobject';
@@ -41,15 +43,21 @@ class Tabs extends React.Component {
                 <div className={this.assignClass('Work Experience & Education')}>
                     <h1>Work Experience</h1>
                     <div>
-                        <p>April 2020 - Present | Project Lead Developer Evolve X</p>
-                        <p>2018-2020 | Freelance Web Developer</p>
+                        <div>
+                            <h1>April 2020 - Present | Project Lead Developer Evolve X</h1>
+                            <p>I lead a small team and built a brokerage site for fine art. Included an all the functionality of a typical e-commerce site plus a user friendly admin control panel, API integrations for Credit/Debit card & Cryptocurrency transactions, OOP PHP and MySQL Database</p>
+                        </div>
+                        <div>
+                            <h1>2018-2020 | Freelance Web Developer</h1>
+                            <p>I have managed to pick up a numer of projects to work on to gain experience. They are featured in the <b>Projects</b> tab</p>
+                        </div>
                     </div>
                     <h1>Education</h1>
-                    <div>
+                    <div id={'education'}>
                         <p>I am a graduate from Ulster University, Belfast and have undertaken two degrees at this instituion:</p>
                         <br />
-                        <p className="degree">2016-2018 MSc Applied Finance Pass</p>
-                        <p className="degree">2013-2016 BEng Software Engineering 2:2</p>
+                        <h1 className="degree">2016-2018 | MSc Applied Finance | Pass</h1>
+                        <h1 className="degree">2013-2016 | BEng Software Engineering | 2:2</h1>
                     </div>
                 </div>
                 <div className={this.assignClass('Skills')}>
@@ -69,15 +77,14 @@ class Tabs extends React.Component {
                         <Skill title='C#' image={cs} experience="2 years"/>
                     </div>
                 </div>
-                <div className={this.assignClass('Projects')}>
+                <div id="projects"className={this.assignClass('Projects')}>
                     <h1>Projects</h1>
                     <div>
-                        <h1>Projects</h1>
-                        <Project 
+                        {/*<Project 
                             title='Black Duveen' 
                             link={''} 
                             image={[]} 
-                            description={'test'}/>
+                        description={'test'}/>*/}
                         <Project 
                             title='Rymer Distribution' 
                             link={'https://www.rymerdist.com'} 
@@ -86,13 +93,13 @@ class Tabs extends React.Component {
                         <Project 
                             title='Hygiene Hub' 
                             link={'http://www.hygienehub.ie'} 
-                            image={[null]} 
-                            description={''}/>
+                            image={[hh1, hh2]} 
+                            description={'This was a small project to showcase a pedal operated hand sanitising device which provides an improved solution to sanitising during the COVID-19 pandemic.'}/>
                         <Project 
                             title='This Website!' 
                             image={[pmoore]} 
                             description={'This was a small project to further develop my skills in React'} />
-                        <h1>More to Follow...</h1>
+                        <p style={{textAlign: 'center', borderTop: '2px solid black'}}>More to Follow...</p>
                     </div>
                 </div>
                 <div className={this.assignClass('Resume')}>
@@ -105,7 +112,7 @@ class Tabs extends React.Component {
                     <div id="contact-container">
                         <div>
                             <i className="material-icons">phone</i>
-                            <a href="tel:07803623281">078 0362 3281</a>
+                            <a href="tel:+447803623281">+44 78 0362 3281</a>
                         </div>
                         <div>
                             <i className="material-icons">mail</i>

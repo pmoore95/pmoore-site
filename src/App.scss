@@ -129,10 +129,7 @@ html, body, #root, .App, .App>div {
       width: 1200px;
       display: flex;
       display: -webkit-flex;
-      button{
-        white-space: nowrap;
-      }
-
+      background-color: rgb(48, 48, 48);
     }
 
     
@@ -219,6 +216,25 @@ html, body, #root, .App, .App>div {
         padding: 10px;
         background-color: $off-white;
         border-radius: 5px;
+
+        h1{
+          color: black;
+          font-size: 1.25rem;
+        }
+        p{
+          padding: 10px;
+          letter-spacing: 0.5px;
+          word-spacing: 1px;
+        }
+      }
+    }
+
+    #education{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1{
+        width: 510px;
       }
     }
 
@@ -403,7 +419,6 @@ html, body, #root, .App, .App>div {
 }
 
 .project{
-
   margin-bottom: 40px;
   h1{
   color: black !important;
@@ -416,11 +431,26 @@ html, body, #root, .App, .App>div {
   }
 }
 
+
+
 .image-container{
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+#projects{
+  width: 1200px !important;
+    div{
+      h1{
+        font-size: 1.75rem !important;
+        border-bottom: 2px solid black;
+        text-align: center;
+      }
+    }
+  
 }
 
 .project-image-container{
@@ -438,8 +468,16 @@ html, body, #root, .App, .App>div {
   text-align: justify;
 }
 
+
+
 /* mobile only */
 @media (max-width: 991px){
+  #education{
+    h1{
+      width: 100% !important;
+      text-align: center;
+    }
+  }
 
   nav{
     position: relative;
@@ -452,7 +490,7 @@ html, body, #root, .App, .App>div {
     #nav-buttons-container{
       position: absolute;
       flex-direction: column;
-      background-color: $grey !important;
+     // background-color: $grey !important;
       top: 100%;
       z-index: 1;
       opacity: 0;
@@ -509,6 +547,8 @@ html, body, #root, .App, .App>div {
   .image-container{
     flex-wrap: wrap;
   }
+
+  
 
   .project-image-container{
     width: 100% !important;
