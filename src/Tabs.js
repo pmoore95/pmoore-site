@@ -19,7 +19,7 @@ import hh2 from './images/hygienehub-mobile.png';
 import pmoore from './images/pmoore.png';
 import linkedin from './images/linkedin.png';
 import pdf from 'pdfobject';
-import file from './images/pm_resume_2020.pdf';
+import file from './images/pm_2020.pdf';
 
 
 
@@ -45,11 +45,11 @@ class Tabs extends React.Component {
                     <div>
                         <div>
                             <h1>April 2020 - Present | Project Lead Developer Evolve X</h1>
-                            <p>I lead a small team and built a brokerage site for fine art. Included an all the functionality of a typical e-commerce site plus a user friendly admin control panel, API integrations for Credit/Debit card & Cryptocurrency transactions, OOP PHP and MySQL Database</p>
+                            <p>I lead a small team and built a brokerage site for fine art. Included all the functionality of a typical e-commerce site plus a user friendly admin control panel, API integrations for Credit/Debit card & Cryptocurrency transactions, OOP PHP and MySQL Database.</p>
                         </div>
                         <div>
                             <h1>2018-2020 | Freelance Web Developer</h1>
-                            <p>I have managed to pick up a numer of projects to work on to gain experience. They are featured in the <b>Projects</b> tab</p>
+                            <p>I have managed to pick up a numer of projects to work on to gain experience. They are featured in the <b>Projects</b> tab.</p>
                         </div>
                     </div>
                     <h1>Education</h1>
@@ -89,7 +89,7 @@ class Tabs extends React.Component {
                             title='Rymer Distribution' 
                             link={'https://www.rymerdist.com'} 
                             image={[rymer1, rymer2]} 
-                            description={'Rymer Distribution is a wholesale business that sells to pharmaceutical businesses throughout the UK & Ireland. They sell everything that a typical pharmacey sells apart from perscription drugs. This includes skincare, shampoos & conditioners, gifts, make-up and beauty products etc. They wanted to branch out to the retail market and wished to do so through eCommerce. I provided them with a website built using PHP and MySQL for the back-end and JavaScript/jQuery for the front-end functionality and CSS for a responsive design. It includes the full functionality of a typical e-commerce site (such as customer accounts, products, order creation and payments) and is fully dynamic with an admin page for employees to edit the site.'} />
+                            description={'Rymer Distribution is a wholesale business that sells to pharmaceutical businesses throughout the UK & Ireland. They sell everything that a typical pharmacey sells apart from perscription drugs. This includes skincare, shampoos & conditioners, gifts, make-up and beauty products etc. They wanted to branch out to the retail market and wished to do so through eCommerce. I provided them with a website built using PHP and MySQL for the back-end and JavaScript/jQuery & CSS for the a responsive ront-end. It includes the full functionality of a typical e-commerce site (such as customer accounts, products, order creation and payments) and is fully dynamic with an admin page for employees to add/edit products.'} />
                         <Project 
                             title='Hygiene Hub' 
                             link={'http://www.hygienehub.ie'} 
